@@ -1,1 +1,2 @@
-# Lidar-to-radar-L2R-translation-for-autonomous-using-GAN-General-advisory-networks-
+Project name : Lidar to radar translation for autonomous vehicles using GAN (General advisory networks )
+Languages used : Python , MATLAB 
