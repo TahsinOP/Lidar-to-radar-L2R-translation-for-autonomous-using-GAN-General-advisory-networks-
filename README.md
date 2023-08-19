@@ -22,3 +22,27 @@ In this project, our objective is to understand how to customize an onboard LiDA
    The outcome of our project involves the successful creation of a LiDAR sensor model that is capable of replicating RADAR detection capabilities. Additionally, we have ensured that the LiDAR model possesses a suitable operational range.
 
 
+## Differences between RADAR and LIDAR
+
+1. **LIDAR Characteristics**
+
+   LIDAR technology is capable of detecting small objects with short wavelengths. It excels at creating highly accurate 3D monochromatic images of objects. However, there are certain disadvantages associated with LIDAR:
+
+   - **Limited Visibility in Low Light Conditions:** LIDAR's effectiveness diminishes in dark or overcast weather conditions, making its usage less optimal under such circumstances.
+   - **Operational Height Range:** LIDAR operates effectively within the range of 500 to 2000 meters.
+   - **Costly Technology:** LIDAR is considered a high-priced technology, which can be a limiting factor in certain applications.
+
+2. **RADAR Characteristics**
+
+   RADAR is capable of functioning in overcast weather and during the night. It has a long operating distance. However, RADAR has its own set of drawbacks:
+
+   - **Limitation in Detecting Small Objects:** RADAR struggles to detect smaller objects at shorter wavelengths.
+   - **Lack of Precise Imaging:** Due to its longer wavelength, RADAR cannot provide a precise image of an object to the user.
+
+
+
+
+
+
+
+
