@@ -54,7 +54,18 @@ In this project, our objective is to understand how to customize an onboard LiDA
 
 5. Our research concludes that the L2R GAN neural network model holds significant promise in producing RADAR images. The model employs global generators for large regions and local generators for small regions. Furthermore, it can be employed to generate RADAR data for critical scenarios, such as pedestrian collision warnings.
 
+# Sensor Fusion Using Synthetic Radar and Vision Data
 
+In this section, we delve into the concept of sensor fusion, where synthetic radar and vision data are combined for enhanced perception and understanding of the environment. This integration of data from multiple sensors can lead to improved accuracy and reliability in various applications.
+
+## Simulation Using MATLAB
+
+To demonstrate the principles of sensor fusion, we will use MATLAB to run a simulation that showcases the fusion of synthetic radar and vision data. The simulation will illustrate how the combined information from these sensors can provide a more comprehensive perception of the surroundings.
+
+Please use the following MATLAB command to initiate the simulation:
+
+```matlab
+openExample('driving/SensorFusionUsingSyntheticDataExample')
 
 
 
