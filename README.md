@@ -111,8 +111,6 @@ This example demonstrates how to generate an object-level track list from measur
 
 ![Workflow](https://in.mathworks.com/help/examples/shared_driving_fusion_lidar/win64/xxRadarLidarTrackFusionWorkflow.png)
 
-## MATLAB Code Example
-
 Below is the MATLAB code example that showcases the track-level fusion of radar and lidar data. Make sure you have the required toolboxes installed and configured before running the code.
 
 ```matlab
