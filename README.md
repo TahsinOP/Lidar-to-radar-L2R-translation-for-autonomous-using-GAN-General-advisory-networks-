@@ -90,11 +90,31 @@ disp(['Sensor Fusion Toolbox Installed: ', num2str(sensorFusionToolboxInstalled)
 disp(['Autonomous Driving Toolbox Installed: ', num2str(autonomousDrivingToolboxInstalled)]);
 
 ```
-## Sensor Fusion Using Synthetic Radar and Vision Data
+# Sensor Fusion Using Synthetic Radar and Vision Data
 
 In this section, we delve into the concept of sensor fusion, where synthetic radar and vision data are combined for enhanced perception and understanding of the environment. This integration of data from multiple sensors can lead to improved accuracy and reliability in various applications.
+
+![simulation](https://in.mathworks.com/help/examples/driving/win64/SensorFusionUsingSyntheticDataExample_01.png)
+
+
 
 Please use the following MATLAB command to initiate the simulation:
 
 ```matlab
-openExample('driving/SensorFusionUsingSyntheticDataExam
+openExample('driving/SensorFusionUsingSyntheticDataExample)
+
+```
+
+# Track-Level Fusion of Radar and Lidar Data
+
+This example demonstrates how to generate an object-level track list from measurements obtained from both a radar and a lidar sensor. Additionally, it showcases the fusion of these measurements using a track-level fusion scheme. The radar measurements are processed using an extended object tracker, while the lidar measurements are handled using a joint probabilistic data association (JPDA) tracker.
+
+![Workflow](https://in.mathworks.com/help/examples/shared_driving_fusion_lidar/win64/xxRadarLidarTrackFusionWorkflow.png)
+
+## MATLAB Code Example
+
+Below is the MATLAB code example that showcases the track-level fusion of radar and lidar data. Make sure you have the required toolboxes installed and configured before running the code.
+
+```matlab
+openExample('shared_driving_fusion_lidar/RadarAndLidarTrackFusionExample')
+
