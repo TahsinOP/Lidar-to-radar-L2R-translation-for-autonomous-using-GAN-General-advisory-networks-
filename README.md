@@ -66,12 +66,3 @@ Please use the following MATLAB command to initiate the simulation:
 
 ```matlab
 openExample('driving/SensorFusionUsingSyntheticDataExample')
-
-
-
-
-
-
-
-
-
