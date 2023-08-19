@@ -54,10 +54,6 @@ In this project, our objective is to understand how to customize an onboard LiDA
 
 5. Our research concludes that the L2R GAN neural network model holds significant promise in producing RADAR images. The model employs global generators for large regions and local generators for small regions. Furthermore, it can be employed to generate RADAR data for critical scenarios, such as pedestrian collision warnings.
 
-# Simulation Using MATLAB
-
-To demonstrate the principles of sensor fusion and autonomous driving , we will use MATLAB to run a simulation that showcases the fusion of synthetic radar and vision data. The simulation will illustrate how the combined information from these sensors can provide a more comprehensive perception of the surroundings
-
 # Prerequisites
 
 Before proceeding with the sensor fusion using synthetic radar and vision data simulation, ensure you have the following prerequisites in place:
@@ -90,7 +86,11 @@ disp(['Sensor Fusion Toolbox Installed: ', num2str(sensorFusionToolboxInstalled)
 disp(['Autonomous Driving Toolbox Installed: ', num2str(autonomousDrivingToolboxInstalled)]);
 
 ```
-# Sensor Fusion Using Synthetic Radar and Vision Data
+# Simulation Using MATLAB
+
+To demonstrate the principles of sensor fusion and autonomous driving , we will use MATLAB to run a simulation that showcases the fusion of synthetic radar and vision data. The simulation will illustrate how the combined information from these sensors can provide a more comprehensive perception of the surroundings
+
+## 1. Sensor Fusion Using Synthetic Radar and Vision Data
 
 In this section, we delve into the concept of sensor fusion, where synthetic radar and vision data are combined for enhanced perception and understanding of the environment. This integration of data from multiple sensors can lead to improved accuracy and reliability in various applications.
 
@@ -105,7 +105,7 @@ openExample('driving/SensorFusionUsingSyntheticDataExample)
 
 ```
 
-# Track-Level Fusion of Radar and Lidar Data
+## 2. Track-Level Fusion of Radar and Lidar Data
 
 This example demonstrates how to generate an object-level track list from measurements obtained from both a radar and a lidar sensor. Additionally, it showcases the fusion of these measurements using a track-level fusion scheme. The radar measurements are processed using an extended object tracker, while the lidar measurements are handled using a joint probabilistic data association (JPDA) tracker.
 
