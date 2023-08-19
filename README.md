@@ -62,7 +62,40 @@ In this section, we delve into the concept of sensor fusion, where synthetic rad
 
 To demonstrate the principles of sensor fusion, we will use MATLAB to run a simulation that showcases the fusion of synthetic radar and vision data. The simulation will illustrate how the combined information from these sensors can provide a more comprehensive perception of the surroundings.
 
+# Prerequisites
+
+Before proceeding with the sensor fusion using synthetic radar and vision data simulation, ensure you have the following prerequisites in place:
+
+1. **MATLAB Installation:**
+   You should have MATLAB installed on your system. If you don't have MATLAB, you can obtain it from the official MathWorks website.
+
+2. **Sensor Fusion Toolbox:**
+   Ensure that you have access to the Sensor Fusion Toolbox within MATLAB. This toolbox provides essential functionality for working with sensor data fusion and related applications.
+
+3. **Autonomous Driving Toolbox:**
+   The Autonomous Driving Toolbox is another crucial component needed for this simulation. It offers specialized tools for developing perception, sensor fusion, and control algorithms in the context of autonomous systems.
+
+## Getting the Toolboxes
+
+If you already have MATLAB installed, you can acquire the Sensor Fusion Toolbox and Autonomous Driving Toolbox through the MATLAB Add-Ons menu or MathWorks website.
+
+## Verify Installation
+
+To verify that you have the necessary toolboxes installed, open MATLAB and execute the following commands in the Command Window:
+
+```matlab
+% Check for Sensor Fusion Toolbox
+sensorFusionToolboxInstalled = license('test', 'Sensor_Fusion_Toolbox');
+
+% Check for Autonomous Driving Toolbox
+autonomousDrivingToolboxInstalled = license('test', 'Automated_Driving_Toolbox');
+
+disp(['Sensor Fusion Toolbox Installed: ', num2str(sensorFusionToolboxInstalled)]);
+disp(['Autonomous Driving Toolbox Installed: ', num2str(autonomousDrivingToolboxInstalled)]);
+
+```
+
 Please use the following MATLAB command to initiate the simulation:
 
 ```matlab
-openExample('driving/SensorFusionUsingSyntheticDataExample')
+openExample('driving/SensorFusionUsingSyntheticDataExam
