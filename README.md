@@ -54,9 +54,7 @@ In this project, our objective is to understand how to customize an onboard LiDA
 
 5. Our research concludes that the L2R GAN neural network model holds significant promise in producing RADAR images. The model employs global generators for large regions and local generators for small regions. Furthermore, it can be employed to generate RADAR data for critical scenarios, such as pedestrian collision warnings.
 
----
 
-This Markdown format provides an organized presentation of the LIDAR to RADAR translation project, outlining its key stages and conclusions.
 
 
 
