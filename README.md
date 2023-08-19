@@ -115,4 +115,8 @@ Below is the MATLAB code example that showcases the track-level fusion of radar 
 
 ```matlab
 openExample('shared_driving_fusion_lidar/RadarAndLidarTrackFusionExample')
+```
+# Future Implementations 
+
+The python code using the L2R Generative Adverserial Networks ( GAN ) will be implemented in Unreal Engine for a proper 3-D graphic simulation of Autonomous driving with fusion of LIDAR and RADAR data
 
