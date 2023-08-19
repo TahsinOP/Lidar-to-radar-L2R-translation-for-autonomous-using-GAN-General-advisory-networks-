@@ -39,6 +39,26 @@ In this project, our objective is to understand how to customize an onboard LiDA
    - **Limitation in Detecting Small Objects:** RADAR struggles to detect smaller objects at shorter wavelengths.
    - **Lack of Precise Imaging:** Due to its longer wavelength, RADAR cannot provide a precise image of an object to the user.
 
+# LIDAR to RADAR Translation
+
+1. We introduce the "L2R Generative Adversarial Network," a conditional model designed to convert LiDAR data into RADAR data.
+
+2. The GAN facilitates image-to-image conditional translation, resulting in three distinct representations of RADAR data:
+   - Raw Polar RADAR Spectrum
+   - RADAR Spectrum in Cartesian Coordinates
+   - 3D RADAR Point Clouds and 2D RADAR Pins
+
+3. The original RADAR data is initially in the form of a 2D array, which is not directly accessible to users. This challenge is addressed by employing Digital Signal Processing (DSP) algorithms like Fast Fourier Transform (FFT) and Multiple Signal Classification (MUSIC) to derive polar RADAR data.
+
+4. Moving forward, we implement a baseline utilizing pix2pix and pix2pixHD methodologies to generate high-resolution RADAR data/spectrum from the LiDAR point cloud. This approach leverages a GAN framework for image-to-image translation, accompanied by loss functions.
+
+5. Our research concludes that the L2R GAN neural network model holds significant promise in producing RADAR images. The model employs global generators for large regions and local generators for small regions. Furthermore, it can be employed to generate RADAR data for critical scenarios, such as pedestrian collision warnings.
+
+---
+
+This Markdown format provides an organized presentation of the LIDAR to RADAR translation project, outlining its key stages and conclusions.
+
+
 
 
 
