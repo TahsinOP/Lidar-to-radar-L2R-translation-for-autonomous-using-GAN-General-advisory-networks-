@@ -1,4 +1,4 @@
-#  Lidar to radar translation for autonomous vehicles using GAN (Generative adverserial networks )
+# A Simualation - Lidar to radar translation for autonomous vehicles using GAN (Generative adverserial networks )
 # Project Introduction
 
 In this project, our objective is to understand how to customize an onboard LiDAR model according to the specifications of a desired RADAR field of view, resolution, and range. Additionally, we aim to employ a density-based clustering algorithm to generate RADAR-like output within an open-source graphical engine, specifically Unreal Engine (UE).
